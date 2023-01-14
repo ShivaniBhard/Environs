@@ -1,0 +1,25 @@
+.about-content {
+    height: 100%;
+    /* background-color: rgb(221, 221, 228); */
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+}
+
+.about-content::after {
+    content: "";
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq6_LbF4k-gQCRhTDSyPzXLf0gcg7VZd5InclK3xYG1EApJbqtJ78Sg43EbokzrU1ou3w&usqp=CAU);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.25;
+    border-radius: 12px;
+}
+.about-home-articles {
+    background-image: url(https://www.freewalldownload.com/waterfalls-images/waterfall-hd-4k-wallpaper.jpg);
+    padding: 18px;
+    margin-top: 23px;
+    position: relative;
+    border-radius: 28.5px;
+}
